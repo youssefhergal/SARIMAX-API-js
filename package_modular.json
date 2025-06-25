@@ -1,0 +1,38 @@
+{
+  "name": "sarimax-motion-analysis",
+  "version": "2.0.0",
+  "description": "Modular SARIMAX Time Series Analysis for Human Motion Capture Data",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node test_ranges.js",
+    "analysis": "node pandas_like_analysis.js",
+    "inspect": "node bvh_inspector.js"
+  },
+  "dependencies": {
+    "mathjs": "^11.11.0",
+    "jstat": "^1.9.6",
+    "bvh-parser": "^0.2.5"
+  },
+  "keywords": [
+    "sarimax",
+    "time-series",
+    "motion-capture",
+    "bvh",
+    "forecasting",
+    "machine-learning",
+    "statistics",
+    "javascript",
+    "modular"
+  ],
+  "author": "JavaScript SARIMAX Implementation",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  }
+} 
